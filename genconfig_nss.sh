@@ -2,6 +2,15 @@
 
 cat nss-setup/config-nss.seed |  grep -v luci- > .config
 echo  CONFIG_FEED_nss_packages=n >> .config
+echo  CONFIG_PACKAGE_batctl-default=y >> .config
+echo  CONFIG_PACKAGE_kmod-batman-adv=y >> .config
+echo  CONFIG_PACKAGE_luci-proto-batman-adv=y >> .config
+echo  CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y >> .config
+echo  CONFIG_PACKAGE_luci-app-nlbwmon=y >> .config
+echo  CONFIG_PACKAGE_collectd-mod-thermal=y >> .config
+echo  CONFIG_PACKAGE_luci-app-statistics=y >> .config
+echo  CONFIG_PACKAGE_luci-app-sqm=y >> .config
+echo  CONFIG_PACKAGE_luci-app-advanced-reboot=y >> .config
 make defconfig
 
 
