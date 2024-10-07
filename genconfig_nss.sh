@@ -10,6 +10,8 @@ echo  CONFIG_PACKAGE_luci-app-nlbwmon=y >> .config
 echo  CONFIG_PACKAGE_collectd-mod-thermal=y >> .config
 echo  CONFIG_PACKAGE_luci-app-statistics=y >> .config
 echo  CONFIG_PACKAGE_luci-app-sqm=y >> .config
+echo  CONFIG_PACKAGE_px5g-standalone=y >> .config
+echo  CONFIG_PACKAGE_luci-app-uhttpd=y >> .config
 echo  CONFIG_PACKAGE_luci-app-advanced-reboot=y >> .config
 make defconfig
 
