@@ -13,6 +13,7 @@ echo  CONFIG_PACKAGE_luci-app-sqm=y >> .config
 echo  CONFIG_PACKAGE_px5g-standalone=y >> .config
 echo  CONFIG_PACKAGE_luci-app-uhttpd=y >> .config
 echo  CONFIG_PACKAGE_luci-app-advanced-reboot=y >> .config
+echo  CONFIG_PACKAGE_block-mount=y >> .config
 make defconfig
 
 
