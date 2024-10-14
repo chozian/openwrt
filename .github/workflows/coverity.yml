@@ -1,8 +1,6 @@
 name: Coverity scan build
 
-on:
-  schedule:
-    - cron: '30 2 * * 6'
+on: workflow_dispatch
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

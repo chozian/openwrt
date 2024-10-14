@@ -1,7 +1,6 @@
 name: Test Formalities
 
-on:
-  pull_request:
+on: workflow_dispatch
 
 permissions:
   contents: read

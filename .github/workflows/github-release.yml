@@ -3,11 +3,7 @@ name: Create GitHub release
 permissions:
   contents: write
 
-on:
-  push:
-    tags:
-      - "v*"
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   release:
